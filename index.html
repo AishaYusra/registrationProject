@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="info">
+            <h1>Learn to code by <br>watching others</h1>
+            <p class="extrainfo">See how experienced developers solve problems in real-time. <br> Watching scripted
+                tutorials is great but understanding how <br>developers think is invaluable.</p>
+        </div>
+        <div class="forminfo">
+            <button class="tryfree"><b>Try it free 7 days</b> then $20/mo. thereafter</button>
+
+            <form action="">
+                <div class="input-box">
+                    <span class="icon">
+                        <i></i>
+                    </span>
+                    <input type="text" class="input" placeholder="First name" required id="firstname"> <br>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i></i>
+                    </span>
+                    <input type="text" class="input" placeholder="Last name" required id="lastname"> <br>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i></i>
+                    </span>
+                    <input type="email" class="input" placeholder="email" required id="email"> <br>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i></i>
+                    </span>
+                    <input type="password" class="input" placeholder="Password" required id="password"> <br>
+                </div>
+                <span class="error-message">
+                    <p>Password cannot be empty</p>
+                </span>
+                <div class="input-box">
+                    <button class="buttonSub" id="submitButton">CLAIM YOUR FREE TRIAL</button>
+                </div> <br>
+                <P class="click">By clicking the button you are agreeing to our <a href="">Terms and Services</a></P>
+            </form>
+        </div>
+    </main>
+    <script src="./registration.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 60px;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.extrainfo {
+    color: white;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+form {
+    width: 400px;
+    height: auto;
+    padding: 16px 30px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 2px 0px rgb(124, 107, 107);
+
+}
+
+form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+form input,
+form button {
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid hsl(246, 25%, 77%);
+    outline: 1px solid hsl(246, 25%, 77%);
+    font-family: 'Poppins', sans-serif;
+}
+
+form input::placeholder {
+    color: rgb(119, 114, 114);
+    padding: 10px;
+}
+
+form button {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    box-shadow: 0px 4px 2px 0px rgb(40, 102, 68);
+    transition: 0.5s ease;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+form button:hover {
+    background-color: rgb(83, 155, 115);
+}
+
+form p {
+    color: hsl(246, 25%, 77%);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tryfree {
+    width: 400px;
+    height: 35px;
+    margin: 0;
+    background-color: hsl(249, 55%, 52%);
+    padding: 12px 32px 32px 12px;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.tryfree:hover {
+    background-color: hsl(249, 78%, 46%);
+
+}
+
+@media screen and (max-width: 576px) {
+
+    body {
+        background-image: url(bg-intro-mobile.png);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 16px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .extrainfo {
+        text-align: center;
+        margin: 0;
+    }
+
+    .tryfree {
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px, 20px
+    }
+
+    form {
+        width: 100%;
+        padding: 16px, 16px;
+
+    }
+
+    .forminfo {
+        width: 300px;
+    }
+
+}
